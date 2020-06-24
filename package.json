@@ -1,0 +1,29 @@
+{
+    "name": "ts_template_gatsby",
+    "version": "0.0.1",
+    "description": "a typescript template for GatsbyJS",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "nodemon --exec ts-node src/index.ts"
+    },
+    "keywords": [],
+    "author": "Isiah Fletcher",
+    "license": "ISC",
+    "preferGlobal": true,
+    "bin": {
+        "--template-typescript": "src/index.js"
+    },
+    "engines": {
+        "node": "*"
+    },
+    "dependencies": {
+        "isomorphic-fetch": "^2.2.1",
+        "nodemon": "^2.0.4",
+        "ts-node": "^8.10.2",
+        "typescript": "^3.9.5"
+    },
+    "devDependencies": {
+        "@types/node": "^14.0.13"
+    }
+}
